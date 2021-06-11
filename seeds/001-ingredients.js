@@ -5,6 +5,7 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('ingredients').insert([
+        
         {ingredient_name: 'meatball'},
         {ingredient_name: 'meatball again'},
       ]);
